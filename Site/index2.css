@@ -1,0 +1,55 @@
+body {
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(fone.jpg);
+	color: #fff;
+	font-family: sans-serif;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 150px;
+	font-size: 50px;
+}
+
+p {
+	font-size: 25px;
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+}
+
+nav {
+	width: 100vw;
+	height: 5vh;
+	margin-top: 5vh;
+	display: flex;
+}
+
+.logo {
+	font-size: 25px;
+	cursor: pointer;
+	width: 5vw;
+	margin-left: 3vw;
+	color: seashell;
+}
+ul {
+	width: 55vw;
+	height: 5vh;
+	text-align: center;
+	margin-left: 35vw;
+}
+ul li {
+	display: inline-block;
+	cursor: pointer;
+	margin-left: 2vw;
+	margin-right: 2vw;
+	color: seashell;
+	font-size: 25px;
+	color: rgb(128, 125, 122);
+}
+ul li:hover {
+	transition: 0.3s;
+	color: wheat;
+}
